@@ -1,5 +1,35 @@
 # Changelog
 
+## v0.5.1(07/29/2022)
+
+### Improvements
+
+- Set the maximum version of MMCV to 1.7.0 ([167](https://github.com/open-mmlab/mmflow/pull/167))
+- Update the qq_group_qrcode image in resources ([166](https://github.com/open-mmlab/mmflow/pull/166))
+
+### New Contributors
+
+- @Weepingchestnut made their first contribution in https://github.com/open-mmlab/mmflow/pull/166
+
+## v0.5.0(07/01/2022)
+
+### Highlight
+
+- Add config and pre-trained model for FlowNet2 on FlyingChairs ([163](https://github.com/open-mmlab/mmflow/pull/163))
+
+### Documentation
+
+- Add a template for PR ([160](https://github.com/open-mmlab/mmflow/pull/160))
+- Fix config file error in metafile ([151](https://github.com/open-mmlab/mmflow/pull/151))
+- Fix broken URL in metafile ([157](https://github.com/open-mmlab/mmflow/pull/157))
+- Fix broken URLs for issue reporting in README ([147](https://github.com/open-mmlab/mmflow/pull/147))
+
+### Improvements
+
+- Add mim to extras_require in setup.py ([154](https://github.com/open-mmlab/mmflow/pull/154))
+- Fix mdformat version to support python3.6 and remove ruby install ([153](https://github.com/open-mmlab/mmflow/pull/153))
+- Add test_mim.yml for testing commands of mim in CI ([158](https://github.com/open-mmlab/mmflow/pull/158))
+
 ## v0.4.2(05/31/2022)
 
 ### Bug Fixes
@@ -7,7 +37,7 @@
 - Inference bug for sparse flow map ([133](https://github.com/open-mmlab/mmflow/pull/133))
 - H and W input images must be divisible by 2\*\*6 ([136](https://github.com/open-mmlab/mmflow/pull/136))
 
-### Documents
+### Documentation
 
 - Configure Myst-parser to parse anchor tag ([129](https://github.com/open-mmlab/mmflow/pull/129))
 - Replace markdownlint with mdformat for avoiding installing ruby ([130](https://github.com/open-mmlab/mmflow/pull/130))
@@ -31,7 +61,7 @@
 - The config and weights are not corresponding in the metafile.yml ([#118](https://github.com/open-mmlab/mmflow/pull/118))
 - Replace recommonmark with myst_parser ([#120](https://github.com/open-mmlab/mmflow/pull/120))
 
-### Documents
+### Documentation
 
 - Add zh-cn doc 0_config\_.md ([#126](https://github.com/open-mmlab/mmflow/pull/126))
 
@@ -87,7 +117,7 @@
 - Add multi-processes script (#79)
 - Deprecate the support for "python setup.py test" (#73)
 
-### Documents
+### Documentation
 
 - Fix broken URLs in GMA README (#93)
 - Fix date format in readme (#90)
@@ -126,7 +156,7 @@
 
 - Refactor utils in models (#50)
 
-### Documents
+### Documentation
 
 - Refactor documentation (#14)
 - Fix script bug in FlyingChairs dataset prepare (#21)

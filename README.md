@@ -65,7 +65,10 @@ https://user-images.githubusercontent.com/76149310/141947796-af4f1e67-60c9-48ed-
 
 ## What's New
 
-**v0.4.2** was released in 05/31/2022:
+**v0.5.1** was released in 07/29/2022:
+
+- Set the maximum version of MMCV to 1.7.0
+- Update the qq_group_qrcode image in resources
 
 Please refer to [changelog.md](docs/en/changelog.md) for details and release history.
 
