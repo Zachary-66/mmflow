@@ -292,7 +292,7 @@ More specifically, for list and tuple types, the elements inside them must also 
 Sometimes, you may set `_delete_=True` to ignore some fields in base configs.
 You may refer to mmengine for simple illustration.
 
-You may have a careful look at [this tutorial](https://github.com/open-mmlab/mmdetection/blob/rangilyu/3.x-config-doc/docs/en/tutorials/config.md#ignore-some-fields-in-the-base-configs) for better understanding of this feature.
+You may have a careful look at [this tutorial](https://github.com/open-mmlab/mmdetection/blob/dev-3.x/docs/en/user_guides/config.md#ignore-some-fields-in-the-base-configs) for better understanding of this feature.
 
 ### Use intermediate variables in configs
 
